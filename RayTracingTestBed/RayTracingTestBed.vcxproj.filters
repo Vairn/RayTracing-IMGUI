@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{dde86bc5-15df-4c9f-aef1-72b689ce5875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shared">
+      <UniqueIdentifier>{9e5548de-99f5-4e89-b4a9-7cb34eecc6f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty">
+      <UniqueIdentifier>{1f7f0639-2ef7-4383-89bc-a693dac95c91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\implot">
+      <UniqueIdentifier>{285ad916-abeb-4911-9f5c-aa295070d8d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui_test_engine">
+      <UniqueIdentifier>{8b135809-5828-4c9c-85fe-479a940c45fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\shared\imgui_app.h">
+      <Filter>shared</Filter>
+    </ClInclude>
+    <ClInclude Include="RayTracingTestBed_imconfig.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\imgui_test_engine\imgui_test_suite\thirdparty\implot\implot.h">
+      <Filter>thirdparty\implot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\imgui_test_engine\imgui_test_suite\thirdparty\implot\implot_internal.h">
+      <Filter>thirdparty\implot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\imgui_test_engine\imgui_test_engine\imgui_capture_tool.h">
+      <Filter>imgui_test_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\imgui_test_engine\imgui_test_engine\imgui_te_context.h">
+      <Filter>imgui_test_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\imgui_test_engine\imgui_test_engine\imgui_te_coroutine.h">
+      <Filter>imgui_test_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\imgui_test_engine\imgui_test_engine\imgui_te_engine.h">
+      <Filter>imgui_test_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\imgui_test_engine\imgui_test_engine\imgui_te_exporters.h">
+      <Filter>imgui_test_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\imgui_test_engine\imgui_test_engine\imgui_te_imconfig.h">
+      <Filter>imgui_test_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\imgui_test_engine\imgui_test_engine\imgui_te_internal.h">
+      <Filter>imgui_test_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\imgui_test_engine\imgui_test_engine\imgui_te_perftool.h">
+      <Filter>imgui_test_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\imgui_test_engine\imgui_test_engine\imgui_te_ui.h">
+      <Filter>imgui_test_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\imgui_test_engine\imgui_test_engine\imgui_te_utils.h">
+      <Filter>imgui_test_engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\shared\imgui_app.cpp">
+      <Filter>shared</Filter>
+    </ClCompile>
+    <ClCompile Include="RayTracingTestBed_main.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="RayTracingTestBed_tests.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\imgui_test_engine\imgui_test_suite\thirdparty\implot\implot.cpp">
+      <Filter>thirdparty\implot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\imgui_test_engine\imgui_test_suite\thirdparty\implot\implot_demo.cpp">
+      <Filter>thirdparty\implot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\imgui_test_engine\imgui_test_suite\thirdparty\implot\implot_items.cpp">
+      <Filter>thirdparty\implot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\imgui_test_engine\imgui_test_engine\imgui_capture_tool.cpp">
+      <Filter>imgui_test_engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\imgui_test_engine\imgui_test_engine\imgui_te_context.cpp">
+      <Filter>imgui_test_engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\imgui_test_engine\imgui_test_engine\imgui_te_coroutine.cpp">
+      <Filter>imgui_test_engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\imgui_test_engine\imgui_test_engine\imgui_te_engine.cpp">
+      <Filter>imgui_test_engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\imgui_test_engine\imgui_test_engine\imgui_te_exporters.cpp">
+      <Filter>imgui_test_engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\imgui_test_engine\imgui_test_engine\imgui_te_ui.cpp">
+      <Filter>imgui_test_engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\imgui_test_engine\imgui_test_engine\imgui_te_utils.cpp">
+      <Filter>imgui_test_engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\imgui_test_engine\imgui_test_engine\imgui_te_perftool.cpp">
+      <Filter>imgui_test_engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
