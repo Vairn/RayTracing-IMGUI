@@ -341,7 +341,7 @@ ImGuiTest* Tests_Chapter2(ImGuiTest* t, ImGuiTestEngine* e)
 				
 				canvas.WritePixel(proj._position.x, canvas.Height() - proj._position.y, Colour(1, 0, 0));
 			}
-			canvas.ToPPM("Chapter2.ppm");
+			canvas.ToPPM("Chapter2-Example.ppm");
 
 			IM_CHECK_EQ(1, 1);
 			//IM_CHECK_FLOAT_NEAR(proj._position.y, 0, EPSILON);
