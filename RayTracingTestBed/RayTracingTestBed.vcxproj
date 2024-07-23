@@ -181,7 +181,9 @@
     <ClInclude Include="..\deps\imgui_test_engine\imgui_test_suite\thirdparty\implot\implot.h" />
     <ClInclude Include="..\deps\imgui_test_engine\imgui_test_suite\thirdparty\implot\implot_internal.h" />
     <ClInclude Include="..\shared\imgui_app.h" />
+    <ClInclude Include="Canvas.h" />
     <ClInclude Include="RayTracingTestBed_imconfig.h" />
+    <ClInclude Include="Vector.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\deps\imgui\imgui.cpp" />
@@ -201,6 +203,7 @@
     <ClCompile Include="..\deps\imgui_test_engine\imgui_test_suite\thirdparty\implot\implot_demo.cpp" />
     <ClCompile Include="..\deps\imgui_test_engine\imgui_test_suite\thirdparty\implot\implot_items.cpp" />
     <ClCompile Include="..\shared\imgui_app.cpp" />
+    <ClCompile Include="Canvas.cpp" />
     <ClCompile Include="RayTracingTestBed_main.cpp" />
     <ClCompile Include="RayTracingTestBed_tests.cpp" />
   </ItemGroup>

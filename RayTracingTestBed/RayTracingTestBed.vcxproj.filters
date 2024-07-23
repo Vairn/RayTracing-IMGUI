@@ -20,6 +20,12 @@
     <Filter Include="imgui_test_engine">
       <UniqueIdentifier>{8b135809-5828-4c9c-85fe-479a940c45fa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Maths">
+      <UniqueIdentifier>{a6ac3e69-c859-4357-b0f2-63886b157d52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Canvas">
+      <UniqueIdentifier>{6aa4320f-36c4-48f1-bd70-d1291d46ac23}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\shared\imgui_app.h">
@@ -82,6 +88,12 @@
     <ClInclude Include="..\deps\imgui_test_engine\imgui_test_engine\imgui_te_utils.h">
       <Filter>imgui_test_engine</Filter>
     </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Canvas.h">
+      <Filter>Canvas</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\shared\imgui_app.cpp">
@@ -140,6 +152,9 @@
     </ClCompile>
     <ClCompile Include="..\deps\imgui_test_engine\imgui_test_engine\imgui_te_perftool.cpp">
       <Filter>imgui_test_engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Canvas.cpp">
+      <Filter>Canvas</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
